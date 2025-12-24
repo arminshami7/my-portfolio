@@ -5,7 +5,7 @@ function Hero() {
 
             <div className="max-w-3x1">
 
-                <img src="/images/profile1.jpg" className="w-28 h-28 sm:w-36 sm:h-36 
+                <img src={`${import.meta.env.BASE_URL}images/profile1.jpg`} className="w-28 h-28 sm:w-36 sm:h-36 
                 md:w-40 md:h-40 mx-auto mb-6 rounded-full object-cover bg-gray-800">
                 </img>
 
