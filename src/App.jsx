@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="bg-slate-900 text-white">
       <Header />
-      <main>
+      <main className="overflow-x-hidden">
         <Hero />
         <About />
         <Projects />
