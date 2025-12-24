@@ -1,4 +1,6 @@
-import profile from "./assets/profile.jpg";
+import profile from "images/profile1.jpg";
+
+
 function Hero() {
     return(
         <section id="Home" className="min-h-screen flex items-center justify-center text-center">
