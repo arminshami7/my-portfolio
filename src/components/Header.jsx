@@ -6,7 +6,7 @@ function Header() {
       <nav className="container mx-auto flex items-center justify-between p-4 text-white">
         {/* بخش لوگو/اسم */}
         <div className="text-2xl font-bold">
-          <a href="#">Your Name</a>
+          <a href="#">Armin Sahami</a>
         </div>
 
         {/* بخش لینک‌های ناوبری */}
