@@ -5,7 +5,7 @@ function Header() {
     <header className="bg-gray-800/50 backdrop-blur-sm sticky top-0 z-50">
       <nav className="container mx-auto flex items-center justify-between p-4 text-white">
         {/* بخش لوگو/اسم */}
-        <div className="text-2xl font-bold">
+        <div className="text-2xl font-bold font-mono border-2 rounded-xl px-4 ">
           <a href="#">Armin Sahami</a>
         </div>
 

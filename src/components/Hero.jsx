@@ -2,9 +2,11 @@ function Hero() {
     return(
         <section id="Home" className="min-h-screen flex items-center justify-center text-center">
             <div className="max-w-3x1">
+                <img src="images/profile1.jpg" className="w-40 mx-auto m-8 bg-gray-800"></img>
                 <h1 className="text-5x1 md:text-7x1 font-extrabold">
-                    <span className="bg-gradiant-to-r from-blue-400 to-teal-300 bg-clip-text text-transparent">
-                        Your Name
+                    <span className="text-transparent bg-clip-text bg-gradient-to-r
+                    from-blue-400 to-teal-300 font-mono text-4xl">
+                        Armin Sahami
                     </span>
                 </h1>
                 <p className="text-2x1 md:text-3x1 text-gray-300 mt-4">
@@ -15,7 +17,8 @@ function Hero() {
                 </p>
                 <a 
                 href="#project"
-                className="mt-8 inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-8 rounded-full ">
+                className="mt-8 inline-block bg-blue-500 hover:bg-blue-600 text-white 
+                font-bold py-3 px-8 rounded-full transition-colors">
                     View My Work
                 </a>
             </div>
