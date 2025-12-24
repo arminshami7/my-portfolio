@@ -4,7 +4,7 @@ function Header() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="bg-gray-800/50 backdrop-blur-sm sticky top-0 z-50">
+    <header className="bg-gray-800/50 backdrop-blur-sm sticky top-0 z-50 max-h-auto">
       <nav className="container mx-auto flex items-center justify-between p-4 text-white">
 
         {/* لوگو / اسم */}

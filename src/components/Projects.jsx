@@ -7,16 +7,16 @@ const ProjectsData = [
         image: movieAppImg,
         description: 'A dynamic, multi-page application for searching movies using the OMDb API, built with React and React Router.',
         tech: ['React', 'React Router', 'Tilwind Css', 'API'],
-        liveUrl: 'https://your-movie-app-link.netlify.app', // <-- لینک نت‌لیفای خودت رو بذار
-        codeUrl: 'https://github.com/your-username/your-repo', // <-- لینک گیت‌هاب خودت رو بذار
+        liveUrl: 'https://movie-search-app11.netlify.app/', // <-- لینک نت‌لیفای خودت رو بذار
+        codeUrl: 'https://github.com/arminshami7/movie-search', // <-- لینک گیت‌هاب خودت رو بذار
     },
     {
     title: 'Simple Blog Platform',
     image: blogAppImg,
     description: 'A clean and modern blog platform fetching and displaying posts, built to practice React fundamentals and Tailwind CSS.',
     tech: ['React', 'React Router', 'Tailwind CSS'],
-    liveUrl: 'https://your-blog-app-link.netlify.app', // <-- لینک نت‌لیفای خودت رو بذار
-    codeUrl: 'https://github.com/your-username/your-repo', // <-- لینک گیت‌هاب خودت رو بذار
+    liveUrl: 'https://react-blog-app11.netlify.app/', // <-- لینک نت‌لیفای خودت رو بذار
+    codeUrl: 'https://github.com/arminshami7/react-blog-app', // <-- لینک گیت‌هاب خودت رو بذار
   },
 ];
 
