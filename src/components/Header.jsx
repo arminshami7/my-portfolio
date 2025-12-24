@@ -42,7 +42,8 @@ function Header() {
 
       {/* منوی موبایل */}
       {open && (
-        <ul className="md:hidden bg-gray-900/90 backdrop-blur-sm text-white flex flex-col items-center gap-6 py-6">
+        <ul className="md:hidden bg-gray-800/50 backdrop-blur-md text-white flex flex-col items-center gap-6 p-6
+        rounded-lg shadow-lg mx-2.5 ">
           <li>
             <a onClick={() => setOpen(false)} href="#about">
               About
