@@ -1,11 +1,8 @@
-import profile from "/images/profile1.jpg";
-
-
 function Hero() {
     return(
         <section id="Home" className="min-h-screen flex items-center justify-center text-center">
             <div className="max-w-3x1">
-                <img src={profile} className="w-40 mx-auto m-8 bg-gray-800"></img>
+                <img src="/images/profile1.jpg" className="w-40 mx-auto m-8 bg-gray-800"></img>
                 <h1 className="text-5x1 md:text-7x1 font-extrabold">
                     <span className="text-transparent bg-clip-text bg-gradient-to-r
                     from-blue-400 to-teal-300 font-mono text-4xl">
