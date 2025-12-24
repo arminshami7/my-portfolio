@@ -1,0 +1,25 @@
+name: Deploy React App to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main # هر وقت به شاخه main پوش شد، این ربات فعال میشه
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest # روی یک سرور مجازی اوبونتو اجرا میشه
+
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v3 # قدم اول: کد تو رو از ریپازیتوری دانلود می‌کنه
+
+      - name: Install and Build 🔧
+        run: |
+          npm install
+          npm run build # قدم دوم: پروژه رو Build می‌کنه (پوشه dist ساخته میشه)
+
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages # قدم سوم: محتویات پوشه dist رو به یک شاخه جدید به اسم gh-pages منتقل می‌کنه
+          folder: dist # از پوشه dist
