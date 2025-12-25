@@ -26,7 +26,7 @@ function Hero() {
                     I build fast, reponsive, and beautiful web application. Let's create somthing amazing together.
                 </p>
                 <a 
-                href="#project"
+                href="#projects"
                 className="mt-8 inline-block bg-blue-500 hover:bg-blue-600 text-white 
                 font-bold py-3 px-8 rounded-full transition-colors text-sm sm:text-base">
                     View My Work
