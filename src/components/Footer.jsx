@@ -8,8 +8,9 @@ function Footer() {
           &copy; {new Date().getFullYear()} Your Name. All Rights Reserved.
         </p>
         <div className="flex justify-center gap-6 mt-4">
-          <a href="https://github.com/your-username" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">GitHub</a>
-          <a href="https://linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">LinkedIn</a>
+          <a href="https://github.com/arminshami7" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">GitHub</a>
+          <a href="https://www.linkedin.com/in/%D8%A2%D8%B1%D9%85%DB%8C%D9%86-%D8%B3%D9%87%D8%A7%D9%85%DB%8C-1832b921a/" target="_blank" rel="noopener noreferrer" 
+          className="hover:text-white transition-colors">LinkedIn</a>
         </div>
       </div>
     </footer>
