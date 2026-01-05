@@ -1,6 +1,6 @@
 import movieAppImg from '../assets/movie-app.png';
 import blogAppImg from '../assets/blog-app.png';
-
+import nextJsBlogImg from '../assets/next-blog-app.png';
 const projectsData = [
   {
     title: 'Movie Search App',
@@ -11,12 +11,20 @@ const projectsData = [
     codeUrl: 'https://github.com/arminshami7/movie-search-app',
   },
   {
-    title: 'Simple Blog Platform',
+    title: 'Simple Blog Platform with react.js',
     image: blogAppImg,
     description: 'A clean and modern blog platform fetching and displaying posts, built to practice React fundamentals and Tailwind CSS.',
     tech: ['React', 'React Router', 'Tailwind CSS'],
     liveUrl: 'https://arminshami7.github.io/react-blog-app/',
     codeUrl: 'https://github.com/arminshami7/react-blog-app',
+  },
+  {
+    title: 'Simple Blog Platform with next.js',
+    image: nextJsBlogImg,
+    description: 'A clean and modern blog platform displaying posts, built to practice next.js fundamentals and Tailwind CSS.',
+    tech: ['next.js', 'gray-matter', 'Tailwind CSS'],
+    liveUrl: 'https://next-js-blog-lya2joj0v-armin-sahamis-projects.vercel.app/',
+    codeUrl: 'https://github.com/arminshami7/next.js-blog',
   },
 ];
 
