@@ -43,7 +43,7 @@ function Projects() {
                 <img 
                   src={project.image} 
                   alt={project.title} 
-                  className="w-full h-56 object-cover hover:opacity-75 transition-opacity duration-300" 
+                  className="w-full h-76 object-cover hover:opacity-75 transition-opacity duration-300" 
                 />
               </a>
               
