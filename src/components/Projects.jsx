@@ -23,7 +23,7 @@ const projectsData = [
     image: nextJsBlogImg,
     description: 'A clean and modern blog platform displaying posts, built to practice next.js fundamentals and Tailwind CSS.',
     tech: ['Next.js', 'React', 'Markdown', 'Vercel', 'Tailwind CSS'],
-    liveUrl: 'https://next-js-blog-lya2joj0v-armin-sahamis-projects.vercel.app/',
+    liveUrl: 'https://arminshami7-nextjs-blog.vercel.app/',
     codeUrl: 'https://github.com/arminshami7/next.js-blog',
   },
 ];
