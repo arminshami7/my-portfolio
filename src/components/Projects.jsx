@@ -22,7 +22,7 @@ const projectsData = [
     title: 'Simple Blog Platform with next.js',
     image: nextJsBlogImg,
     description: 'A clean and modern blog platform displaying posts, built to practice next.js fundamentals and Tailwind CSS.',
-    tech: ['next.js', 'gray-matter', 'Tailwind CSS'],
+    tech: ['Next.js', 'React', 'Markdown', 'Vercel', 'Tailwind CSS'],
     liveUrl: 'https://next-js-blog-lya2joj0v-armin-sahamis-projects.vercel.app/',
     codeUrl: 'https://github.com/arminshami7/next.js-blog',
   },
